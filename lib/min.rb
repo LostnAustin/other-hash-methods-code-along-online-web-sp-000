@@ -9,5 +9,7 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-groceries.min
+  
+groceries.values.flatten.min
+#returns the values, into one array, then finds the min value (a-z, 0-1)
 end
